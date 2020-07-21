@@ -1,0 +1,138 @@
+.Cell {
+    height: 0;
+
+    margin: 1px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5ec4ff;
+    color: transparent;
+}
+.start {
+    margin: 1px;
+    color: transparent;
+    background-color: #12ff16;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5ec4ff;
+}
+.end {
+    margin: 1px;
+    color: transparent;
+    background-color: #ff124d;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5ec4ff;
+}
+.path {
+    margin: 1px;
+    color: transparent;
+    background-color: #f1ff59;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5ec4ff;
+}
+.found {
+    margin: 1px;
+    color: transparent;
+    background-color: #9ed7ff;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5ec4ff;
+}
+.obstacle {
+    margin: 1px;
+    color: transparent;
+    background-color: darkslategrey;
+    width: 32px;
+    height: 32px;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5ec4ff;
+}
+.current {
+    margin: 1px;
+    color: transparent;
+    background-color: #ff622e;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5ec4ff;
+}
+
+.MasterParent {
+    transform: scale(0.37);
+    padding-top: 2%;
+    margin-right: 95%;
+
+    position: relative;
+}
+.DrawCanvas {
+
+    position: absolute;
+    padding-right: 15%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.Row {
+    display: inline-flex;
+}
+.ButtonCanvas {
+    margin-left: 2%;
+    margin-top: 2%;
+    display: inline-flex;
+    border: solid;
+    border-width: 0px;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 15%;
+
+    border-bottom-width: 1px;
+    border-color: #d6d6d6;
+}
+.Button {
+    cursor: pointer;
+    background-color: white;
+    border: solid;
+    border-color: #d6d6d6;
+    border-width: 1px;
+    border-radius: 16px;
+    margin-right: 5px;
+    padding: 16px;
+    transition: all 0.5s;
+}
+.Button:hover {
+    cursor: pointer;
+    background-color: #2e96ff;
+}
+
+.Title{
+    padding-right: 32px;
+    font-size: 30px;
+    font-family: Overpass;
+    text-align: center;
+    color: black;
+    margin:auto;
+
+}
