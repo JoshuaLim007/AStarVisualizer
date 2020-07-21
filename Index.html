@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel ="StyleSheet" href = "StyleSheet1.css" />
+</head>
+<body onload = "Awake()">
+    <script src="Astar.js"></script>
+    <script src="SetUp.js"></script>
+
+    <div class = "ButtonCanvas">
+        <div class = "Title">
+            A Star Visualizer
+        </div>
+        <button class = "Button" onclick = "StartSearch()">
+            Start Pathfind
+        </button>
+        <button class = "Button" onclick = "Awake()">
+            New Board
+        </button>
+        <input type="range" min="0" max="100" value="50" class="slider" id="thetaRange" oninput = "Theta()"/>
+    </div>
+
+    <div class = "MasterParent" id ="MasterParent">
+        <div class= "DrawCanvas" id = "DrawCanvas">
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
